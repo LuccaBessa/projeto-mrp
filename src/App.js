@@ -12,8 +12,8 @@ function App() {
           <div className="navigation">
             <span> Projeto MRP </span>
             <button
-              className="button-next"
-              onClick={() => setPage("lapiseira")}
+              className="button button-next"
+              onClick={() => setPage("mechanicalpen")}
             >
               {"Próximo"}
             </button>
@@ -21,6 +21,25 @@ function App() {
           <InitialParameters />
         </>
       )}
+      {
+        page === 'mechanicalpen' && (
+          <>
+            <div className="navigation">
+              <span> Projeto MRP </span>
+
+              <div className='actions'>
+                <button className="button button-back" onClick={() => setPage('initial')}>{'Voltar'}</button>
+                <button
+                  className="button button-next"
+                  onClick={() => setPage("result")}
+                >
+                  {"Próximo"}
+                </button>
+              </div>
+            </div>
+          </>
+        )
+      }
     </div>
   );
 }
