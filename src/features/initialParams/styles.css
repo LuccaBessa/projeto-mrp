@@ -1,0 +1,39 @@
+.container {
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.row:nth-child(even) {background: #CCC}
+.row:nth-child(odd) {background: #FFF}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.name {
+  font-size: 16px;
+  width: 177px;
+  text-align: left;
+}
+
+.header:first-child {
+  font-size: 16px;
+  width: 177px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 16px;
+  width: 192px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.input {
+  padding: 2px 5px;
+  width: 157px;
+  margin: 0 19px 0 0;
+}
