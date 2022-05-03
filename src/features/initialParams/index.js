@@ -10,7 +10,7 @@ export const InitialParameters = () => {
 
   const headers = [
     "Nome",
-    "Lote minimo",
+    "Lote mínimo",
     "Lead Time",
     "Estoque de segurança",
     "Quantidade da receita",

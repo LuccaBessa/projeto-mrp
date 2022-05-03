@@ -1,0 +1,60 @@
+.navigation {
+  border-radius: 6px;
+  background: rgb(187, 80, 80);
+  width: 1127px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 3px 0;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.navigation .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  min-width: 15%;
+}
+
+.m-r-10{
+  margin-right: 10px;
+}
+
+.button {
+  background: transparent;
+  font-weight: 800;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.button-back {
+  color: white;
+  background: rgb(187, 80, 80);
+}
+
+.button-back:hover {
+  color: white;
+  background: rgb(161, 67, 67);
+}
+
+.button-next {
+  color: rgb(187, 80, 80);
+  background: white;
+}
+
+.button-next:hover {
+  background: rgb(187, 80, 80);
+  color: white;
+}
+
+.button-disabled {
+  color: #ececec85;
+  background: #adadad;
+  border: 1px solid #adadad; 
+  cursor: not-allowed !important;
+}

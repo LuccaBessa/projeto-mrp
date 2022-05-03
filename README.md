@@ -6,13 +6,13 @@ O projeto visa desenvolver a lógica do planejamento da produção usando React 
 
 A entrega deve constar como resposta: As quantidades e o período em que cada insumo (recurso) de produção precisará ser comprado ou produzido.
 
-Deve existir  um formulario  para cadastro das informações de cada item da árvore, contendo:
+Deve existir um formulario para cadastro das informações de cada item da árvore, contendo:
 
-* Tamanho Lote minimo
-* Lead Time
-* Estoque de segurança
-* Qantidade da "receita"
-* Etoque inicial.
+-   Tamanho Lote mínimo
+-   Lead Time
+-   Estoque de segurança
+-   Qantidade da "receita"
+-   Etoque inicial.
 
 Estes dados precisam ser gravados e podem ser alterados sempre.
 
@@ -24,16 +24,16 @@ Estes dados precisam ser gravados e podem ser alterados sempre.
 
 Installation:
 
-`npm install`  
+`npm install`
 
 Para realizar a execução dos testes:
 
-`npm test`  
+`npm test`
 
 Para realizar a execução da aplicação:
 
-`npm start`  
+`npm start`
 
 Para visualizar a aplicação:
 
-`localhost:3001`  
+`localhost:3001`

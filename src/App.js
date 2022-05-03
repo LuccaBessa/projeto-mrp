@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import { Navigation } from "./components/naviagtion";
 import { InitialParameters } from "./features/initialParams";
 
 function App() {
@@ -9,34 +10,14 @@ function App() {
     <div className="App">
       {page === "initial" && (
         <>
-          <div className="navigation">
-            <span> Projeto MRP </span>
-            <button
-              className="button button-next"
-              onClick={() => setPage("mechanicalpen")}
-            >
-              {"Próximo"}
-            </button>
-          </div>
+          <Navigation setPage={setPage} nextPage='mechanicalpen' />
           <InitialParameters />
         </>
       )}
       {
         page === 'mechanicalpen' && (
           <>
-            <div className="navigation">
-              <span> Projeto MRP </span>
-
-              <div className='actions'>
-                <button className="button button-back" onClick={() => setPage('initial')}>{'Voltar'}</button>
-                <button
-                  className="button button-next"
-                  onClick={() => setPage("result")}
-                >
-                  {"Próximo"}
-                </button>
-              </div>
-            </div>
+            <Navigation setPage={setPage} previousPage='initial' />
           </>
         )
       }
