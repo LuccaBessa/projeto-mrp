@@ -1,10 +1,15 @@
 .container {
-  border-style: solid;
-  border-radius: 4px;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 6px;
 }
 
-.row:nth-child(even) {background: #CCC}
-.row:nth-child(odd) {background: #FFF}
+.row:nth-child(even) {
+  background: rgb(187, 80, 80);
+  color: white;
+}
+.row:nth-child(odd) {
+  background: #fff;
+}
 
 .row {
   display: flex;
@@ -36,4 +41,10 @@
   padding: 2px 5px;
   width: 157px;
   margin: 0 19px 0 0;
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 2px 5px;
 }

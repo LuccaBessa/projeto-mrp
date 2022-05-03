@@ -1,3 +1,5 @@
+
+
 .App {
   background-color: #fff;
   min-height: 100vh;
@@ -6,12 +8,34 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  padding-bottom: 5%;
 }
 
 .navigation {
-  width: 1147px;
+  border-radius: 6px;
+  background: rgb(187, 80, 80);
+  width: 1127px;
   display: flex;
   justify-content: space-between;
   margin: 10px 0 3px 0;
-  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+ 
+.button-next {
+  background: transparent;
+  font-weight: 800;
+  border: 1px solid white;
+  border-radius: 6px;
+  color: white;
+  padding: 8px 16px;
+  background: rgb(187, 80, 80);
+  cursor:pointer
+}
+
+.button-next:hover {
+  background: white;
+  color: rgb(187, 80, 80);
 }
