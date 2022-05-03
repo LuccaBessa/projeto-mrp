@@ -1,5 +1,5 @@
 import { action } from 'easy-peasy';
-import { INITIAL_VALUES } from './shared/utils';
+import { INITIAL_VALUES } from './utils';
 
 export const items = {
   items: INITIAL_VALUES,

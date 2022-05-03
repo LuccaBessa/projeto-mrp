@@ -1,5 +1,5 @@
 import { createStore } from 'easy-peasy';
-import { items } from '../itemsModel';
+import { items } from '../shared/itemsModel';
 
 const models = {
   items
