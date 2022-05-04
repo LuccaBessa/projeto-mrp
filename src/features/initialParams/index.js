@@ -37,9 +37,6 @@ export const InitialParameters = () => {
   return (
     <div className="container">
       <div className="row">
-        <span className="header-title">Parâmetros iniciais</span>
-      </div>
-      <div className="row">
         {headers.map((item) => {
           return <span className="header">{item}</span>;
         })}

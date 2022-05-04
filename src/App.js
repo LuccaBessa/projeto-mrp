@@ -10,14 +10,14 @@ function App() {
     <div className="App">
       {page === "initial" && (
         <>
-          <Navigation setPage={setPage} nextPage='mechanicalpen' />
+          <Navigation setPage={setPage} pageName='Parâmetros Iniciais' nextPage='mechanicalpen' />
           <InitialParameters />
         </>
       )}
       {
         page === 'mechanicalpen' && (
           <>
-            <Navigation setPage={setPage} previousPage='initial' />
+            <Navigation setPage={setPage} pageName='Dados da Lapiseira' previousPage='initial' />
           </>
         )
       }
