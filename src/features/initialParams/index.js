@@ -53,6 +53,7 @@ export const InitialParameters = () => {
                   return (
                     <input
                       value={item[key]}
+                      inputMode="numeric"
                       onChange={(e) =>
                         handleChangeParameter(e.target.value, item, key)
                       }

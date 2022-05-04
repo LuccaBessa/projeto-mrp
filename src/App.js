@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Navigation } from "./components/naviagtion";
+import { Navigation } from "./components/navigation";
 import { InitialParameters } from "./features/initialParams";
 
 function App() {
