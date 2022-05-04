@@ -4,16 +4,18 @@
 }
 
 .row:nth-child(even) {
-  background: rgb(187, 80, 80);
-  color: white;
+  background: #fff;
 }
 .row:nth-child(odd) {
-  background: #fff;
+  background: rgb(187, 80, 80);
+  color: white;
 }
 
 .row {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   padding: 5px;
 }
 
