@@ -11,7 +11,7 @@ Deve existir um formulario para cadastro das informações de cada item da árvo
 -   Tamanho Lote mínimo
 -   Lead Time
 -   Estoque de segurança
--   Qantidade da "receita"
+-   Quantidade da "receita"
 -   Etoque inicial.
 
 Estes dados precisam ser gravados e podem ser alterados sempre.
