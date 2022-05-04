@@ -8,11 +8,11 @@ A entrega deve constar como resposta: As quantidades e o período em que cada in
 
 Deve existir um formulario para cadastro das informações de cada item da árvore, contendo:
 
--   Tamanho Lote mínimo
+-   Tamanho do Lote mínimo
 -   Lead Time
 -   Estoque de segurança
 -   Quantidade da "receita"
--   Etoque inicial.
+-   Estoque inicial.
 
 Estes dados precisam ser gravados e podem ser alterados sempre.
 
