@@ -6,6 +6,8 @@ import { useStoreState, useStoreActions } from 'easy-peasy';
 
 import { calculate } from '../../calc/calc';
 
+//tabela de results
+
 
 const Results = () => {
 
