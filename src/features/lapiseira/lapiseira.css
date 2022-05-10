@@ -1,39 +1,62 @@
 .lapiseira-container {
-    border-style: solid;
-    border-radius: 4px;
-    margin: 0 0 400px 0;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: .5px;
+    /* width: 1127px; */
 }
 
 .lapiseira-row {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     padding: 5px;
 }
 
-.lapiseira-name {
-    font-size: 16px;
-    width: 150px;
-    text-align: left;
+.lapiseira-row:nth-child(even) {
+    background: #fff;
 }
 
-.lapiseira-header:first-child {
-    font-size: 16px;
+.lapiseira-row:nth-child(odd) {
+    background: rgb(187, 80, 80);
+    color: white;
+}
+
+.lapiseira-name {
+    font-size: 13px;
     width: 150px;
-    margin: 0;
+    text-align: left;
+    padding: 3px 6px;
+    margin-right: 19px;
+}
+
+
+
+
+.lapiseira-header:first-child {
+    width: 150px;
     text-align: left;
     font-weight: bold;
 }
 
 .lapiseira-header {
-    font-size: 16px;
-    width: 114px;
-    margin: 0 19px 0 0;
+    font-size: 13px;
+    width: 88px;
+    padding: 3px 6px;
     text-align: center;
     font-weight: bold;
+    margin-right: 19px;
 }
 
 .lapiseira-input {
-    padding: 2px 5px;
-    width: 100px;
-    margin: 0 19px 0 0;
+    padding: 3px 5px;
+    margin-right: 19px;
+    width: 88px;
+    border: 1px solid #00000061;
+    border-radius: 5px;
+    outline: none;
+}
+
+.lapiseira-input:active {
+    border: 1px solid #00000061;
+    outline: none;
 }
