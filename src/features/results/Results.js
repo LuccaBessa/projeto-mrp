@@ -1,8 +1,7 @@
-import React from "react";
-
 import "./results.css";
 
-import { useStoreState, useStoreActions } from "easy-peasy";
+import { useStoreState } from "easy-peasy";
+import React from "react";
 
 import { calculate } from "../../calc/calc";
 
