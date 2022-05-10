@@ -1,0 +1,39 @@
+.lapiseira-container {
+    border-style: solid;
+    border-radius: 4px;
+    margin: 0 0 400px 0;
+}
+
+.lapiseira-row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.lapiseira-name {
+    font-size: 16px;
+    width: 150px;
+    text-align: left;
+}
+
+.lapiseira-header:first-child {
+    font-size: 16px;
+    width: 150px;
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.lapiseira-header {
+    font-size: 16px;
+    width: 114px;
+    margin: 0 19px 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lapiseira-input {
+    padding: 2px 5px;
+    width: 100px;
+    margin: 0 19px 0 0;
+}
