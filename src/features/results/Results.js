@@ -3,12 +3,13 @@ import "./results.css";
 import { useStoreState } from "easy-peasy";
 import React from "react";
 
-import { calculate } from "../../calc/calc";
+import { useCalculate } from "../../hooks/useCalculate";
 
 const Results = () => {
+  const { calculate } = useCalculate();
   const items = useStoreState((store) => store.items.items);
 
-  const results = [calculate(items)[0]];
+  const results = calculate(items);
   //  const results = items;
 
   return (
